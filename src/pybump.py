@@ -3,7 +3,7 @@ import os
 import re
 from sys import stderr
 
-import yaml
+import oyaml as yaml
 from pkg_resources import get_distribution, DistributionNotFound
 
 regex_version_pattern = re.compile(r"((?:__)?version(?:__)? ?= ?[\"'])(.+?)([\"'])")

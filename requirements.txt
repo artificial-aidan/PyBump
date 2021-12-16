@@ -1,4 +1,4 @@
 
-pyyaml==5.4.1
+oyaml==1.0
 GitPython==3.1.12
 requests==2.25.1
